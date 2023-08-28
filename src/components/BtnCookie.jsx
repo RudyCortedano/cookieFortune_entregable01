@@ -8,7 +8,7 @@ const BtnCookie = ({ setQuote, phrases, setBgColor, imagenes  }) => {
   };
   return (
     <div className="box__btn">
-      <button className="btn__change" onClick={changePhrase}><i class="fa-solid fa-shuffle"></i></button>
+      <button className="btn__change" onClick={changePhrase}><i className="fa-solid fa-shuffle"></i></button>
     </div>
   );
 };
